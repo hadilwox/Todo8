@@ -10,17 +10,18 @@
       theme: {
         extend: {
           colors: {
-            clifford: "#da373d",
-          },
-        },
-      },
-    };
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
   </script>
   <style type="text/tailwindcss">
     @layer utilities {
-        .content-auto {
-          content-visibility: auto;
-        }
+      .content-auto {
+        content-visibility: auto;
       }
-    </style>
+    }
+  </style>
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+  <link rel="icon" type="image/x-icon" href="<?= BASE_URL ?>/assets/uploads/number-8.png">

@@ -1,6 +1,8 @@
 <?php
-include_once "config.php";
-include_once "constant.php";
-include_once "library/lib-helpers.php";
-include_once "library/lib-auth.php";
-include_once "library/lib-tasks.php";
+session_start();
+include "constant.php";
+include BASE_PATH . "library/lib-helpers.php";
+include BASE_PATH . "config/config.php";
+include BASE_PATH . "vendor/autoload.php";
+include BASE_PATH . "library/lib-auth.php";
+include BASE_PATH . "library/lib-tasks.php";
